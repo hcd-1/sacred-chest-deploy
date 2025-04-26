@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     async function fetchMaxTracks() {
       try {
-        const response = await fetch('/api/get-max-tracks');
+        const response = await fetch('/.netlify/functions/get-max-tracks');
         if (!response.ok) throw new Error('Network response was not ok');
         const data = await response.json();
         return data.maxTracks || 1;

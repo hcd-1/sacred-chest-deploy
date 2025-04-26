@@ -2,6 +2,12 @@
   publish = "public"
   functions = "functions"
 
+# Redirect all unmatched routes to index.html for SPA, except for /api/*
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

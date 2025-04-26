@@ -1,0 +1,8 @@
+{
+    "name": "sacred-chest",
+    "version": "1.0.0",
+    "description": "Daily Bible verse application",
+    "dependencies": {
+      "@supabase/supabase-js": "^2.0.0"
+    }
+  }

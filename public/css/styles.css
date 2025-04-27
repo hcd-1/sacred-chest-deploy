@@ -653,7 +653,7 @@
   }
   
   .icon-button:hover, #open-calendar.calendar-button:hover {
-    background-color: #a78bfa;
+    background-color: #a78bfa !important;
   }
   
   .dark .icon-button:hover, #open-calendar.calendar-button:hover {
